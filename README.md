@@ -1,6 +1,6 @@
 # Inverse Kinematics: Mecanum & Omni Wheel
 
-Package ROS 2 ini adalah ditujukan untuk memahami **Inverse Kinematics** pada robot roda Mecanum dan Omni, hanya perlu melengkapi **2 file** agar semua test berhasil (PASS).
+Package ROS 2 ini adalah ditujukan untuk memahami **Inverse Kinematics** pada robot roda Mecanum dan Omni, hanya perlu melengkapi **2 file** agar semua test berhasil.
 
 ---
 
@@ -64,9 +64,9 @@ Jika belum punya workspace ROS 2, buat dulu:
 # 1. Buat folder workspace dan src
 mkdir -p ~/nama_workspace/src
 
-# 2. Clone repo ini ke dalam src
+# 2. Clone repo ke dalam src
 cd ~/nama_workspace/src
-git clone https://github.com/ValentinoDan/mecanum_omni.git
+git clone <url github hasil fork>
 
 # 3. Build workspace (*abaikan warning*)
 cd ~/nama_workspace
